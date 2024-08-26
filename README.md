@@ -58,6 +58,11 @@ The game will be accessible at `http://localhost:3000`.
 
 ![Screenshot 2024-08-27 010449](https://github.com/user-attachments/assets/9ceaf89a-1029-4cbc-83d5-d4b8e927e9a6)
 
+**Every character has certain directions in which it can move that is also displayed in the UI**
+
+![image](https://github.com/user-attachments/assets/bdf55e20-d1de-4d6d-8ffb-f931e0e50774)
+
+
 **After every move the user can see their moves in the move history**
 
 ![Screenshot 2024-08-27 013726](https://github.com/user-attachments/assets/80dbb750-a069-4f66-92bd-23a131974ed3)
