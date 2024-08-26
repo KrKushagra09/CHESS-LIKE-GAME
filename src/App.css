@@ -1,0 +1,174 @@
+/* General styles */
+body {
+  background-color: #EDEDED; /* Soft light gray background */
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+  color: #2F4F4F;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #556B2F;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* Board styles */
+.board {
+  display: inline-block;
+  border: 3px solid #2F4F4F; /* Dark slate gray border */
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #F5F5F5; /* Matching background for consistency */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 110px; /* Slightly larger cell size */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #2F4F4F; /* Dark slate gray border for cells */
+  background-color: #A3B18A; /* Light olive background for cells */
+  color: #FFE4C4; /* Pale peach color for characters */
+  font-size: 1.8em; /* Larger font size for visibility */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cell:hover {
+  background-color: #B5C3A2; /* Slightly lighter olive background on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.cell.occupied {
+  background-color: #78866B; /* Slightly darker olive background for occupied cells */
+}
+
+/* Button styles */
+.controls button {
+  background-color: #2F4F4F; /* Dark slate gray background */
+  color: #FFFFFF;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #556B2F; /* Dark olive green on hover */
+}
+
+/* History styles */
+.history {
+  margin: 0 auto; /* Centering the history box */
+  margin-top: 30px;
+  max-width: 600px; /* Increased width for the history box */
+  background-color: #556B2F; /* Dark olive background for history entries */
+  border: 2px solid #2F4F4F; /* Dark slate gray border for history entries */
+  padding: 20px;
+  border-radius: 10px;
+  color: #FEFAE0; /* Light beige text color */
+  font-family: 'Courier New', Courier, monospace;
+  overflow-y: auto;
+  font-size: 1.3rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.history div {
+  margin-bottom: 12px;
+  padding: 12px;
+  background-color: #A3B18A; /* Matching the board cells */
+  color: #2F4F4F;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+/* Message styles */
+.message {
+  margin-top: 25px;
+  font-size: 1.5em;
+  color: #DDA15E; /* Goldenrod color for messages */
+  font-weight: bold;
+}
+
+/* Custom color variables for easy theme adjustments */
+:root {
+  --primary-color: #2F4F4F; /* Dark slate gray */
+  --secondary-color: #556B2F; /* Dark olive green */
+  --accent-color: #DDA15E; /* Goldenrod */
+  --neutral-light: #FEFAE0; /* Light beige */
+  --neutral-dark: #333333; /* Dark gray */
+  --background-color: #EDEDED; /* Soft light gray */
+  --cell-background: #A3B18A; /* Light olive */
+  --hover-background: #B5C3A2; /* Lighter olive */
+  --occupied-background: #78866B; /* Dark olive */
+}
+
+/* Base styles utilizing custom colors */
+body {
+  background-color: var(--background-color);
+}
+
+.board {
+  border-color: var(--primary-color);
+  background-color: var(--neutral-light);
+}
+
+.cell {
+  background-color: var(--cell-background);
+  color: var(--neutral-light);
+}
+
+.cell.occupied {
+  background-color: var(--occupied-background);
+}
+
+.controls button {
+  background-color: var(--primary-color);
+  color: var(--neutral-light);
+}
+
+.controls button:hover {
+  background-color: var(--secondary-color);
+}
+
+.history {
+  background-color: var(--secondary-color);
+  color: var(--neutral-light);
+  border-color: var(--primary-color);
+}
+
+.history div {
+  background-color: var(--cell-background);
+  color: var(--primary-color);
+}
+
+.message {
+  color: var(--accent-color);
+}
