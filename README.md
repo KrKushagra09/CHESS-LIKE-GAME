@@ -16,8 +16,8 @@ This project is a web-based chess game that allows two players to compete agains
 
 ## Technologies Used
 
-- **Frontend**: [Include the frontend technologies you used here, e.g., React, HTML, CSS, etc.]
-- **Backend**: [Include the backend technologies here, e.g., Node.js, Express, etc.]
+- **Frontend**: React,HTML,CSS,Javascript
+- **Backend**: NodeJs,ExpressJs 
 - **WebSocket Communication**: The project includes WebSocket support through the `faye-websocket` library, enabling real-time communication between players and the server.
 
 ## Installation
@@ -61,4 +61,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to adjust the sections according to the specific technologies and details of your project.
+
