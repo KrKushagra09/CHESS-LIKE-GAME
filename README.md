@@ -53,7 +53,15 @@ The game will be accessible at `http://localhost:3000`.
 4. Once the game concludes, the winner will be declared automatically.
 
 ## UI Preview
+
+This is the final layout of the game
 ![Screenshot 2024-08-27 010449](https://github.com/user-attachments/assets/9ceaf89a-1029-4cbc-83d5-d4b8e927e9a6)
+
+After every move the user can see their moves in the move history
+![Screenshot 2024-08-27 013726](https://github.com/user-attachments/assets/80dbb750-a069-4f66-92bd-23a131974ed3)
+
+As the game comes to an end the winner is displayed on the ui and the entire history can be seen in the move history
+![image](https://github.com/user-attachments/assets/1335b53e-08a3-4c95-82bc-5ecc988dab70)
 
 
 ## License
