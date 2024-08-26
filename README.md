@@ -53,6 +53,7 @@ The game will be accessible at `http://localhost:3000`.
 4. Once the game concludes, the winner will be declared automatically.
 
 ## UI Preview
+![Screenshot 2024-08-27 010449](https://github.com/user-attachments/assets/9ceaf89a-1029-4cbc-83d5-d4b8e927e9a6)
 
 
 ## License
